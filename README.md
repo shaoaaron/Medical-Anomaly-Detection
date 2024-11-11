@@ -1,4 +1,5 @@
 # Medical-Anomaly-Detection
+(NOTE: Files are hidden due to sensitive information. Contact me directly for more information. Additional details on my website (will post link later).
 
 ## Overview
 
