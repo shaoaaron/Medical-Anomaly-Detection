@@ -1,9 +1,9 @@
 # Medical-Anomaly-Detection
-(NOTE: Files are hidden due to sensitive information. Contact me directly for more information. Additional details on my website (will post link later).
+(NOTE: Files are hidden due to sensitive information. Contact me directly for more information. Additional details on my website (will post link later)).
 
 ## Overview
 
-This project is a machine learning-based anomaly detection system, aimed at identifying medical anomalies from a set of extracted features. Using Python and popular data science libraries, the goal was to implement a classifier to distinguish between "Normal" and "Anomalous" cases based on medical signal data.
+This project is a machine learning-based anomaly detection system, aimed at identifying medical anomalies from a set of extracted features. The goal was to implement a classifier to distinguish between "Normal" and "Anomalous" cases based on medical signal data by using python and related libraries: wfdb, numpy, matplotlib, os, scipy, pandas, sklearn, and imblearn.
 
 The workflow involved data preprocessing, feature extraction, handling imbalanced classes, model training, evaluation, and optimization of threshold settings to improve classification performance.
 
@@ -33,18 +33,8 @@ Adjusted the threshold iteratively to enhance recall for anomaly detection witho
 Created a user-friendly function to accept new data input and output anomaly detection results, making the project more practical and usable.
 
 ## Lessons Learned
-
 ### Understanding Data Imbalance and Its Impacts
-Imbalanced classes required special handling to prevent the model from heavily favoring the majority class. SMOTE and careful tuning helped achieve a balanced model.
-
 ### Feature Scaling and Preprocessing
-Learned the importance of preprocessing steps like normalization to ensure that features contribute equally to the model’s decision-making.
-
 ### Model Threshold Tuning
-While a standard 0.5 threshold is typical, adjusting it was crucial for anomaly detection, particularly in imbalanced datasets, where capturing anomalies is more valuable.
-
 ### Git and GitHub Workflow
-Encountered challenges with Git and .gitignore configurations, which led to deeper knowledge of how Git tracks files and how to manage public/private data effectively.
-
 ### Documentation and User Accessibility
-Gained insight into making a project more accessible by creating clean, structured scripts and functions that allow users to easily test the anomaly detection model on new data.
