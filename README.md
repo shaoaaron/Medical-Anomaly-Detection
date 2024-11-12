@@ -7,6 +7,9 @@ This project is a machine learning-based anomaly detection system, aimed at iden
 
 The workflow involved data preprocessing, feature extraction, handling imbalanced classes, model training, evaluation, and optimization of threshold settings to improve classification performance.
 
+You can find the data at https://physionet.org/content/aftdb/1.0.0/. Citation:
+Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
+
 ## Approach and Methods
 
 ### Data Loading and Initial Exploration
